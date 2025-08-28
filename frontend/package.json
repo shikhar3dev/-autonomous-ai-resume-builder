@@ -1,19 +1,15 @@
 {
   "name": "ai-resume-frontend",
   "version": "1.0.0",
-  "description": "Autonomous AI Resume Builder Frontend",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.4.0",
-    "framer-motion": "^10.16.4",
-    "jspdf": "^2.5.1",
+    "axios": "^1.6.7",
+    "framer-motion": "^12.23.12",
+    "jspdf": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,12 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -38,20 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.2"
-  },
-  "proxy": "http://localhost:5000",
-  "keywords": [
-    "ai",
-    "resume",
-    "react",
-    "autonomous",
-    "frontend"
-  ],
-  "author": "Shikhar Singh",
-  "license": "MIT"
+  }
 }
